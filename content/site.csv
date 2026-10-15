@@ -1,0 +1,20 @@
+key,value
+# Rows starting with # are ignored. Change only the value column. Leave a value empty to hide it.,
+site_name,Divya Saroja Chayanam
+headline,"I build products from zero, and the teams that make them work."
+intro_1,"Product leader with 11 years across marketplaces, logistics and agtech."
+intro_2,"Today I lead product at LiteFarm, an open-source platform at the University of British Columbia used in more than 160 countries."
+about_heading,About
+bring_heading,What I bring
+work_heading,Selected work
+writing_heading,Writing
+built_heading,Things I have built
+contact_heading,Contact
+contact_text,"Open to product leadership roles. If you are building something new, say hello."
+contact_button,Message me on LinkedIn
+linkedin_url,https://www.linkedin.com/in/divya-saroja-chayanam/
+medium_url,https://medium.com/@divyasaroja
+substack_url,
+email,
+palette,ochre
+max_writing_items,6

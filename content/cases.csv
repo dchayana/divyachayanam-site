@@ -1,0 +1,5 @@
+slug,company,title,blurb,result
+# slug = the file name of the case page without .html. Row order = order on the home page.,,,,
+tata-neu,"Tata Digital, Tata Neu super-app","A shopping mall with name brands, inside an app","Lead product manager for the shopping experience, from product listing to order confirmation.",1M users within three months of the pilot launch.
+locus,"Locus, an IKEA company",Shipping in 10 to 20 business minutes. Does the business and math reconcile?,Adapting a routing algorithm built for warehouses to the dark stores of quick commerce.,Rider assignment rate from 47% to 92% for a food-delivery client.
+litefarm,"LiteFarm, University of British Columbia",How do you build software for an industry that believes it does not need one?,Running product for an open-source farm management platform used in 160+ countries.,"54% user growth over two years, with no paid marketing."

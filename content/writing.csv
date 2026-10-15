@@ -1,0 +1,5 @@
+date,title,url,source,note,image
+"# One row per piece. date as YYYY-MM-DD. image is optional: a file name from the images folder. Newest dates show first.",,,,,
+2026-10-01,"Replace this row with your strongest Substack essay",https://example.com,Substack,"One line on why it is worth reading",
+2026-08-15,"Replace this row with an op-ed",https://example.com,Op-ed,"Where it ran and what it argued",
+2026-06-20,"Replace this row with a standout LinkedIn post",https://example.com,LinkedIn,"The idea in one sentence",

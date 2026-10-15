@@ -1,0 +1,4 @@
+name,text
+"# Each row is one project: its name, then a description.",
+Watson Home Assistant,"A voice and text AI assistant inside WhatsApp that reduces the mental load of running a household: task logs, reminders, shopping and a searchable home knowledge base. I built the frontend, backend, prompt logic and voice-to-text pipeline."
+Watchometer,"A Chrome extension that scores educational YouTube videos for quality and clickbait. I developed the classification approach with Claude, using titles, thumbnails and comments, and iterated on the edge cases."

@@ -1,0 +1,70 @@
+case,kind,label,text
+"# kind: fact (label + text), section (text = heading), p, li, note, diagram-eco (label = center, text = caption), node (text = label, follows a diagram-eco), diagram-hubs (label = left caption|right caption, text = caption)",,,
+tata-neu,fact,Role,"Lead product manager, shopping experience"
+tata-neu,fact,Company,"Tata Digital, Tata Neu super-app"
+tata-neu,fact,Period,June 2019 to January 2022
+tata-neu,fact,Reported to,Chief Product Officer
+tata-neu,section,,The product
+tata-neu,p,,"Tata Neu is the super-app built by Tata Digital. I led product for the shopping experience, from product listing to order confirmation. Payments sat with another team. I was the lead and only product manager for this experience, reported to the Chief Product Officer, managed two direct reports and worked with a 52-person development team."
+tata-neu,p,,"We built it before and through the peak of the COVID-19 lockdowns. The opportunity was an online shopping app in a fast-growing economy, with roughly 600 million people able and willing to pay, many of them likely first-time online shoppers."
+tata-neu,section,,Decisions
+tata-neu,li,,"**A familiar journey.** We kept the standard path of discovery, consideration, shortlist and purchase so that first-time shoppers were not confused."
+tata-neu,li,,"**A four-step checkout.** It relied on saved data, progress indicators and as few distractions as possible."
+tata-neu,li,,"**Cross-sell and upsell in context.** We used predefined bundles for categories such as electronics, beauty and dining, and for occasions such as Valentine's Day."
+tata-neu,p,,"It was a small, simple product by today's standards, and it worked very well."
+tata-neu,section,,Challenges
+tata-neu,diagram-eco,Tata Neu|marketplace,The four parties the marketplace had to keep in balance.
+tata-neu,node,,Brands
+tata-neu,node,,Payment providers
+tata-neu,node,,Consumers
+tata-neu,node,,Sellers
+tata-neu,li,,"**Size and speed.** It was essentially another Amazon, built on a tight timeline, with a cold-start problem."
+tata-neu,li,,"**Competing priorities.** Internal teams (loyalty, payments, marketing, customer service) and external vendors and brands each wanted different things from the same screens."
+tata-neu,li,,"**Morale in lockdown.** The team worked remotely, and I checked in with each person individually."
+tata-neu,section,,Outcomes
+tata-neu,li,,"1M users and $6M GMV within three months of the pilot launch, the highest ROI of any vertical in the super-app."
+tata-neu,li,,"4 brands and 100K+ SKUs onboarded across electronics, luxury and lifestyle."
+tata-neu,li,,"Personalized discovery, upsell and bundle recommendations built with the ML recommendation team."
+tata-neu,note,,Figures are as of January 2022. The app's reported GMV included non-shopping services such as bill payments and subscriptions. Tata Neu has since passed 50 million downloads.
+locus,fact,Role,"Product manager, hyperlocal B2B SaaS"
+locus,fact,Company,"Locus, an IKEA company"
+locus,fact,Period,February 2022 to May 2023
+locus,fact,Markets,"India, Middle East and Africa, Canada"
+locus,section,,The product
+locus,p,,"Locus sells logistics software to businesses. Its control tower is a dashboard for managing on-demand and scheduled deliveries, powered by a proprietary routing algorithm, with a companion app for drivers. (Earlier versions were called TrackIQ and the LOTR rider app.)"
+locus,p,,"I managed on-demand delivery for B2B clients, including customizing the algorithm and the dashboard for them."
+locus,section,,The problem
+locus,p,,"The system assumed one main warehouse. Quick commerce works differently. Deliveries come from many small dark stores, and the delivery time a business promises varies by city and by location."
+locus,diagram-hubs,"One warehouse for the whole city|Dark-store hubs, each serving its own area","Quick commerce needs many local hubs, where the existing system assumed one warehouse."
+locus,section,,Approach
+locus,li,,"Treat each dark store or restaurant as its own anchor point and run local optimizations, instead of one global optimization."
+locus,li,,"Feed real-time rider data into assignment decisions: location, idle time and time on the road."
+locus,li,,"Add industry-specific inputs, such as food preparation time for restaurants and fairness in how work is distributed among riders."
+locus,li,,"Pilot the change and tune it against emissions, SLA adherence and time on the road."
+locus,section,,Outcomes
+locus,p,,Two clients piloted the change in two locations each. The two results came from different kinds of work.
+locus,li,,**Solving a client's need.** A food-delivery client's rider assignment rate rose from 47% to 92% once the algorithm factored in preparation time.
+locus,li,,"**Changing a client's model.** I made the case to a Canadian client that a hub-and-spoke model built on dark stores would improve its SLAs compared with a single warehouse. In the pilot, its delivery times fell from 90 to 45 minutes."
+locus,note,,"Client details are confidential, so the clients are not named."
+litefarm,fact,Role,Product Lead and Head of Product
+litefarm,fact,Organization,"LiteFarm, Centre for Sustainable Food Systems, UBC"
+litefarm,fact,Period,July 2024 to present
+litefarm,fact,Team,Global remote team of nine
+litefarm,section,,The product
+litefarm,p,,LiteFarm is an open-source farm management web app developed at the Centre for Sustainable Food Systems at UBC. Farmers use it for record-keeping and planning. Researchers use it to collect data. It is a non-profit project used in more than 160 countries.
+litefarm,p,,"I am the project's key decision-maker for product. That covers the roadmap, finances, grant proposals, staffing (including hiring and firing), and relationships with open-source communities, funders, NGOs and farmer organizations."
+litefarm,section,,What the work has taught me
+litefarm,p,,"The mission shapes the culture. We want to help smallholder farmers make decisions and support research on food security and climate change. Judgment and decision-making matter more here than business cases, because a wrong choice on staffing or projects has real costs for a small team."
+litefarm,section,,Challenges
+litefarm,diagram-eco,LiteFarm,"The groups LiteFarm serves, each with different incentives."
+litefarm,node,,Smallholder farmers
+litefarm,node,,Researchers
+litefarm,node,,Investors
+litefarm,node,,Academic partners
+litefarm,node,,Open-source developers
+litefarm,li,,"**Who is the user?** LiteFarm began as a research tool and is now used by farmers worldwide. Researchers want detailed records. Farmers often find detailed records less useful unless they are pursuing certifications. We kept detailed modules for researchers, such as soil and nutrient management, and made the features farmers value, such as finances and labor management, simpler."
+litefarm,li,,"**The business model.** As a university project, LiteFarm has not yet found a self-sustaining model. In 2025, shifting priorities in climate and research funding forced a period of survival and difficult decisions."
+litefarm,section,,Outcomes
+litefarm,li,,"User growth of 54% over two years, including 31% in one eleven-month stretch, without paid marketing."
+litefarm,li,,Projects delivered with research and industry partners.
+litefarm,li,,New features that users received well.

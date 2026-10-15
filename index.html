@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Divya Saroja Chayanam</title>
+<meta name="description" content="Product leader with 11 years building products from zero and scaling them across marketplaces, logistics and agtech. Currently Product Lead at LiteFarm, UBC.">
+<meta property="og:title" content="Divya Saroja Chayanam">
+<meta property="og:description" content="I build products from zero, and the teams that make them work.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site-head">
+    <a class="name" href="#top" data-site="site_name">Divya Saroja Chayanam</a>
+    <nav aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#writing">Writing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="load-error" id="load-error" hidden>
+    <p>The content did not load. This page reads its text from the content folder, so it has to be opened from a web address. Opening the file directly from a computer will not work. If it is live, check that the content folder and its files were uploaded.</p>
+  </div>
+
+  <noscript><p class="empty">This site needs JavaScript to show its content. You can find me on <a href="https://www.linkedin.com/in/divya-saroja-chayanam/">LinkedIn</a>.</p></noscript>
+
+  <section class="hero" id="top">
+    <h1 id="headline"></h1>
+    <div id="intro"></div>
+  </section>
+
+  <section class="sec about" id="about" hidden>
+    <h2 data-site="about_heading">About</h2>
+    <div class="body" id="about-body"></div>
+  </section>
+
+  <section class="sec band" id="bring" hidden>
+    <h2 data-site="bring_heading">What I bring</h2>
+    <div class="body wide brings" id="bring-list"></div>
+  </section>
+
+  <section class="sec" id="work" hidden>
+    <h2 data-site="work_heading">Selected work</h2>
+    <div class="body wide cases" id="cases-list"></div>
+  </section>
+
+  <section class="sec" id="writing" hidden>
+    <h2 data-site="writing_heading">Writing</h2>
+    <div class="body wide" id="writing-list"></div>
+  </section>
+
+  <section class="sec built" id="built" hidden>
+    <h2 data-site="built_heading">Things I have built</h2>
+    <div class="body" id="built-body"></div>
+  </section>
+
+  <section class="sec reach band" id="contact">
+    <h2 data-site="contact_heading">Contact</h2>
+    <div class="body wide">
+      <p class="lede" id="contact-text"></p>
+      <a class="btn" id="contact-btn" href="#" target="_blank" rel="noopener"></a>
+      <p class="alt" id="email-line" hidden>Email: <span></span></p>
+    </div>
+  </section>
+
+  <footer id="site-footer"></footer>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
